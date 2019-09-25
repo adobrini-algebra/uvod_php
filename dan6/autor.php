@@ -7,8 +7,7 @@ function autor($autor){
     $ime = $autor_array[1];
     $prezime = $autor_array[0];
 
-    $ime_slovo = strtoupper(substr($ime, 0, 1))
-    ;
+    $ime_slovo = strtoupper(substr($ime, 0, 1));
     $prezime = ucfirst(strtolower($prezime));
 
     return $ime_slovo . '. ' . $prezime;
